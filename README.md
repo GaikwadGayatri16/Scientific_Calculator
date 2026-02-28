@@ -50,3 +50,30 @@ Java
 Swing (javax.swing)
 AWT (java.awt)
 Event Handling (ActionListener)
+
+
+📂 Project Structure
+Calculator.java
+
+
+🚀 How to Run
+Step 1: Compile
+javac Calculator.java
+Step 2: Run
+java Calculator
+
+
+The calculator window will open.
+🧮 How It Works
+Uses JFrame for the main window
+Uses JTextField for display
+Uses JButton for input buttons
+
+
+Implements ActionListener to handle button events
+Stores:
+str → First number
+str1 → Operator
+str2 → Second number
+Uses Math class for scientific calculations
+Handles invalid operations using try-catch block
